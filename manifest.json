@@ -1,8 +1,8 @@
 {
   "id": "dev.censoredosu.supabase-amoled",
-  "name": "Supabase Amoled theme",
+  "name": "Supabase Amoled",
   "version": "2.1.2",
-  "description": "Replugged theme based on supabase",
+  "description": "Amoled theme based on Supabase",
   "author": {
     "name": "censoredosu",
     "discordID": "321979292923854849",
@@ -10,8 +10,8 @@
   },
   "source": "https://github.com/CensoredOSU/replugged-supabase-amoled-theme",
   "image": [
-    "https://cdn.discordapp.com/attachments/756481920103088180/1144991134653890591/server.png",
-    "https://cdn.discordapp.com/attachments/756481920103088180/1144991147324870656/settings.png"
+    "https://github.com/CensoredOSU/replugged-supabase-amoled-theme/blob/main/images/server.png?raw=true",
+    "https://github.com/CensoredOSU/replugged-supabase-amoled-theme/blob/main/images/settings.png?raw=true"
   ],
   "updater": {
     "type": "store",

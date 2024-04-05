@@ -7,6 +7,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "build": "replugged build theme",
     "dev:rp": "replugged build theme --watch",
     "rp": "replugged bundle theme",
     "lint": "prettier ./src --check",
@@ -15,11 +16,7 @@
   },
   "type": "module",
   "dependencies": {
-    "@parcel/config-default": "^2.9.3",
-    "@parcel/core": "^2.9.3",
-    "@parcel/transformer-sass": "^2.9.3",
-    "@types/node": "^20.4.5",
-    "prettier": "^3.0.0",
-    "replugged": "^4.6.0"
+    "prettier": "^3.2.5",
+    "replugged": "^4.7.9"
   }
 }
