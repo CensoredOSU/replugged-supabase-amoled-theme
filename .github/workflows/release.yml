@@ -31,7 +31,10 @@ jobs:
 
       - name: Building TypeScript and bundle into asar
         run: pnpm run rp
-
+        
+      - name: Releasing the version
+        run: pnpm run release
+      
       - uses: ncipollo/release-action@v1
         with:
           artifacts: "bundle/*, *.theme.css"
