@@ -21,12 +21,12 @@ jobs:
         with:
           node-version: 18
 
-      - name: Install PNPM
+      - name: Installing PNPM
         uses: pnpm/action-setup@v2
         with:
           version: latest
 
-      - name: Install Node.js dependencies
+      - name: Installing Node.js dependencies
         run: pnpm install
 
       - name: Building TypeScript and bundle into asar
